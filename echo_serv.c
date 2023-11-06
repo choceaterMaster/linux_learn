@@ -63,7 +63,7 @@ int main()
         return 0;
     }
 
-    //接受用户发来的数据
+    //接受用户发来的数据0
     while((n=recv(clientfd,buff,100,0))>0){
         buff[n]='\0';
         printf("number of receive bytes=%d, data = %s\n",n,buff);
