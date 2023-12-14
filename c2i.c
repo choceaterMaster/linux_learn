@@ -56,6 +56,7 @@ int main(int argc,char ** argv)
         return 0;
     }
     l_s32Ret=hex2dec(argv[1]);
+    printf("argv[0]= %s, argv[1]=%s\n",argv[0],argv[1]);
     printf("value hex = 0x%x \n",l_s32Ret);
     printf("value dec = %d \n",l_s32Ret);
     return 0;
