@@ -40,7 +40,7 @@ int hex2dec(char* hex)
         temp=c2i(*(str+i));
         bits=(len -i -1)*4;
         temp=temp<<bits;
-        num=num|temp;
+        num=num+temp;
     }
     return num;
 
